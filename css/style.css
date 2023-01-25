@@ -6,4 +6,87 @@
     box-sizing: border-box;
 }
 
+.page-container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* /ASSETS */
+
+/* NAVBAR */
+
+nav {
+    height: 80px;
+    background-color: #ff6900;
+}
+
+.navbar-items {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-items #categories,
+#logo,
+#menu-icons {
+    height: 30px;
+    width: 80px;
+    background-color: orange;
+    /*test*/
+}
+
+/* /NAVBAR */
+
+/* MAIN */
+
+main {
+    margin: 50px;
+}
+
+main .row-1 {
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .row-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .image {
+    height: 544px;
+    width: 346px;
+    background-color: aquamarine;
+}
+
+
+
+
+/* /MAIN */
+
+/* FOOTER */
+
+footer {
+    height: 100px;
+    background-color: #1a1a1a;
+}
+
+.footer-items {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-items #info,
+#socials {
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    /*test*/
+}
+
+/* /FOOTER */
