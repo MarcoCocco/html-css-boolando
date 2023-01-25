@@ -71,20 +71,12 @@ main {
     margin: 50px;
 }
 
-main .row-1 {
-    margin-bottom: 70px;
+main .row-1, .row-2 {
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-
-main .row-2 {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-
 
 main .image img {
     height: 540px;
@@ -95,11 +87,25 @@ main .image {
     position: relative;
 }
 
+.text-container .txt-brand {
+    font-size: .8em;
+}
+
+.text-container .saled-price {
+    color: red;
+    font-size: .8em;
+}
+
+.text-container .original-price {
+    font-size: .8em;
+    text-decoration: line-through;
+}
+
 .green {
     max-width: 100px;
     padding: 5px;
     position: absolute;
-    bottom: 40px;
+    bottom: 80px;
     left: 35px;
     background-color: green;
     color: white;
@@ -111,7 +117,7 @@ main .image {
     max-width: 100px;
     padding: 5px;
     position: absolute;
-    bottom: 40px;
+    bottom: 80px;
     left: 0;
     background-color: green;
     color: white;
@@ -123,7 +129,7 @@ main .image {
     max-width: 50px;
     padding: 5px;
     position: absolute;
-    bottom: 40px;
+    bottom: 80px;
     left: 0;
     background-color: red;
     color: white;
