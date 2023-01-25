@@ -102,6 +102,17 @@ main .image {
     text-decoration: line-through;
 }
 
+.img-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image:hover .img-hover {
+    display: inline-block;
+}
+
 .green {
     max-width: 100px;
     padding: 5px;
