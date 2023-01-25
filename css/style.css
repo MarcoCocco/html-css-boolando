@@ -49,11 +49,13 @@ main .row-1 {
     margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 main .row-2 {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 main .image {
