@@ -71,7 +71,8 @@ main {
     margin: 50px;
 }
 
-main .row-1, .row-2 {
+main .row-1,
+.row-2 {
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
@@ -172,12 +173,49 @@ footer {
     align-items: center;
 }
 
-.footer-items #info,
-#socials {
-    height: 30px;
-    width: 80px;
-    background-color: white;
-    /*test*/
+.footer-items #info ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+#info strong {
+    color: white;
+}
+
+#info ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+}
+
+.footer-items #socials ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+#socials strong {
+    color: white;
+}
+
+#socials ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: .8em;
+}
+
+footer .footer-items #info a:hover {
+    text-decoration: underline;
+}
+
+footer .footer-items #socials a:hover {
+    text-decoration: underline;
+}
+
+#socials svg {
+    margin-left: 3px;
+    height: 20px;
+    width: 20px;
+    fill: white;
 }
 
 /* /FOOTER */
